@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664984311871,
+  "lastUpdate": 1664984350666,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -192,6 +192,54 @@ window.BENCHMARK_DATA = {
             "value": 49.58,
             "unit": "ns/op",
             "extra": "23334202 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3686db1736885738bd12df2940ac0fd4385ced6",
+          "message": "Bump actions/checkout from 2 to 3.1.0 (#1)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2022-10-05T23:38:32+08:00",
+          "tree_id": "894a68d947befce9dbbb14585417f21d9d1ab8a7",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/d3686db1736885738bd12df2940ac0fd4385ced6"
+        },
+        "date": 1664984350164,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkGenTile",
+            "value": 98.3,
+            "unit": "ns/op",
+            "extra": "13612425 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHex",
+            "value": 1093,
+            "unit": "ns/op",
+            "extra": "940107 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFormatFmt",
+            "value": 204.3,
+            "unit": "ns/op",
+            "extra": "5970354 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFormatNaive",
+            "value": 58.03,
+            "unit": "ns/op",
+            "extra": "19172770 times\n2 procs"
           }
         ]
       }
