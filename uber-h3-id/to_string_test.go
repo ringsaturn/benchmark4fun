@@ -7,6 +7,19 @@ import (
 	"github.com/uber/h3-go/v3"
 )
 
+func BenchmarkGenHex(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		func() {
+			geo := h3.GeoCoord{
+				Latitude:  37.775938728915946,
+				Longitude: -122.41795063018799,
+			}
+			resolution := 9
+			_ = h3.FromGeo(geo, resolution)
+		}()
+	}
+}
+
 func BenchmarkFormatFmt(b *testing.B) {
 	geo := h3.GeoCoord{
 		Latitude:  37.775938728915946,
