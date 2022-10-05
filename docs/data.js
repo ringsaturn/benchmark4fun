@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664984200990,
+  "lastUpdate": 1664984238827,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -48,6 +48,54 @@ window.BENCHMARK_DATA = {
             "value": 69.51,
             "unit": "ns/op",
             "extra": "17549056 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ringsaturn.me@gmail.com",
+            "name": "ringsaturn",
+            "username": "ringsaturn"
+          },
+          "committer": {
+            "email": "ringsaturn.me@gmail.com",
+            "name": "ringsaturn",
+            "username": "ringsaturn"
+          },
+          "distinct": true,
+          "id": "e69c1c5b16728ba1a8db3f967bd395b17dd87b77",
+          "message": "set cron",
+          "timestamp": "2022-10-05T23:36:48+08:00",
+          "tree_id": "a778182f194b0324a944d2f7b59304d1b2db5965",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/e69c1c5b16728ba1a8db3f967bd395b17dd87b77"
+        },
+        "date": 1664984238466,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkGenTile",
+            "value": 106.8,
+            "unit": "ns/op",
+            "extra": "11218774 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHex",
+            "value": 1112,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFormatFmt",
+            "value": 184.1,
+            "unit": "ns/op",
+            "extra": "6559779 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFormatNaive",
+            "value": 50.02,
+            "unit": "ns/op",
+            "extra": "23002683 times\n2 procs"
           }
         ]
       }
