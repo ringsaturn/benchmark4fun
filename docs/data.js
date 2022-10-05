@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664984350666,
+  "lastUpdate": 1664984356373,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -240,6 +240,54 @@ window.BENCHMARK_DATA = {
             "value": 58.03,
             "unit": "ns/op",
             "extra": "19172770 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dcc9dee5a97a4bf79fca18a6cca63568d835f30a",
+          "message": "Bump actions/cache from 2 to 3 (#2)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2022-10-05T23:38:43+08:00",
+          "tree_id": "2243ca2e96a43b6108403d73acd2186d9481b076",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/dcc9dee5a97a4bf79fca18a6cca63568d835f30a"
+        },
+        "date": 1664984355995,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkGenTile",
+            "value": 106.8,
+            "unit": "ns/op",
+            "extra": "12697968 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHex",
+            "value": 1065,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFormatFmt",
+            "value": 178,
+            "unit": "ns/op",
+            "extra": "6730008 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFormatNaive",
+            "value": 48.17,
+            "unit": "ns/op",
+            "extra": "23207011 times\n2 procs"
           }
         ]
       }
