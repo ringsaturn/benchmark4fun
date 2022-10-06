@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665034227478,
+  "lastUpdate": 1665034231089,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -148,6 +148,60 @@ window.BENCHMARK_DATA = {
             "value": 68.58,
             "unit": "ns/op",
             "extra": "17548476 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ringsaturn.me@gmail.com",
+            "name": "ringsaturn",
+            "username": "ringsaturn"
+          },
+          "committer": {
+            "email": "ringsaturn.me@gmail.com",
+            "name": "ringsaturn",
+            "username": "ringsaturn"
+          },
+          "distinct": true,
+          "id": "090722032a72aa921c4467d02e24f9f0314f0e8b",
+          "message": "fmt",
+          "timestamp": "2022-10-06T13:30:05+08:00",
+          "tree_id": "437a33a96e50888cedcaf5304de9fc912378d451",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/090722032a72aa921c4467d02e24f9f0314f0e8b"
+        },
+        "date": 1665034230704,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMmcloughlinGeoHashEncode",
+            "value": 47.47,
+            "unit": "ns/op",
+            "extra": "25215531 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTile",
+            "value": 130.4,
+            "unit": "ns/op",
+            "extra": "9179001 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHex",
+            "value": 1206,
+            "unit": "ns/op",
+            "extra": "994267 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatFmt",
+            "value": 174,
+            "unit": "ns/op",
+            "extra": "6902054 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatNaive",
+            "value": 49.34,
+            "unit": "ns/op",
+            "extra": "23442609 times\n2 procs"
           }
         ]
       }
