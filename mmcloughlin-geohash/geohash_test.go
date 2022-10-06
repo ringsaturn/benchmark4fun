@@ -8,6 +8,15 @@ import (
 
 func BenchmarkMmcloughlinGeoHashEncode(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = geohash.Encode(116.3883, 39.9289)
+		_ = geohash.Encode(39.9289, 116.3883)
+	}
+}
+
+func BenchmarkGenHashAndGetAllNeighbors(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		func() {
+			gh := geohash.EncodeIntWithPrecision(39.9289, 116.3883, 12)
+			_ = geohash.NeighborsIntWithPrecision(gh, 12)
+		}()
 	}
 }

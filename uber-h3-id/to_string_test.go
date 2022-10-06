@@ -20,6 +20,20 @@ func BenchmarkUberH3GenHex(b *testing.B) {
 	}
 }
 
+func BenchmarkUberH3GenHexAndGetNeighbors(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		func() {
+			geo := h3.GeoCoord{
+				Latitude:  37.775938728915946,
+				Longitude: -122.41795063018799,
+			}
+			resolution := 12
+			hex := h3.FromGeo(geo, resolution)
+			_ = h3.KRing(hex, 1)
+		}()
+	}
+}
+
 func BenchmarkUberH3FormatFmt(b *testing.B) {
 	geo := h3.GeoCoord{
 		Latitude:  37.775938728915946,
