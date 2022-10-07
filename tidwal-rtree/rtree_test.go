@@ -25,3 +25,14 @@ func BenchmarkTidwalRTreeNearby(b *testing.B) {
 		})
 	}
 }
+
+func TestTidwalRTreeGNearby(t *testing.T) {
+	var ret int
+	tr.Search([2]float64{k100.Cities[100].Longitude - 3, k100.Cities[100].Longitude - 3}, [2]float64{k100.Cities[100].Longitude + 3, k100.Cities[100].Longitude + 3}, func(min, max [2]float64, data int) bool {
+		ret = data
+		return false
+	})
+	if ret != 101371 {
+		t.Fatalf("got %v", ret)
+	}
+}
