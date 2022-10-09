@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665192698637,
+  "lastUpdate": 1665279177547,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -414,6 +414,76 @@ window.BENCHMARK_DATA = {
             "value": 50.1,
             "unit": "ns/op",
             "extra": "23427859 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ringsaturn",
+            "username": "ringsaturn",
+            "email": "ringsaturn.me@gmail.com"
+          },
+          "committer": {
+            "name": "ringsaturn",
+            "username": "ringsaturn",
+            "email": "ringsaturn.me@gmail.com"
+          },
+          "id": "c5ba83b3894b340fe101aa6d405a6adb2ec052d7",
+          "message": "benchmarks for maptile/geohash/h3 of getting neighbors\n\n- maptile is much more easier compared with geohash\n- h3 is slowest",
+          "timestamp": "2022-10-06T14:16:33Z",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/c5ba83b3894b340fe101aa6d405a6adb2ec052d7"
+        },
+        "date": 1665279177118,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMmcloughlinGeoHashEncode",
+            "value": 56.95,
+            "unit": "ns/op",
+            "extra": "18934749 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHashAndGetAllNeighbors",
+            "value": 114.3,
+            "unit": "ns/op",
+            "extra": "10076044 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTile",
+            "value": 113.1,
+            "unit": "ns/op",
+            "extra": "11432788 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTileAndGetAllNeighbors",
+            "value": 109.5,
+            "unit": "ns/op",
+            "extra": "10453998 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHex",
+            "value": 1272,
+            "unit": "ns/op",
+            "extra": "914008 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHexAndGetNeighbors",
+            "value": 2024,
+            "unit": "ns/op",
+            "extra": "573135 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatFmt",
+            "value": 238.4,
+            "unit": "ns/op",
+            "extra": "5099396 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatNaive",
+            "value": 65.66,
+            "unit": "ns/op",
+            "extra": "18297572 times\n2 procs"
           }
         ]
       }
