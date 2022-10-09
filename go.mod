@@ -1,6 +1,6 @@
 module github.com/ringsaturn/benchmark4fun
 
-go 1.18
+go 1.19
 
 require (
 	github.com/mmcloughlin/geohash v0.10.0
