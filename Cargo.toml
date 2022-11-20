@@ -1,0 +1,9 @@
+[package]
+name = "benchmark4fun"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+geometry-rs = { git =  "http://github.com/ringsaturn/geometry-rs", rev = "826ca5f210f582e8deed7ce5c4daf3fe5ae86ec6"}
