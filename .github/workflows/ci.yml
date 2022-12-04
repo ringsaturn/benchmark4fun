@@ -45,7 +45,7 @@ jobs:
           make bench | tee benchmark_result.txt
 
       - name: Continuous Benchmark
-        uses: benchmark-action/github-action-benchmark@v1.14.0
+        uses: benchmark-action/github-action-benchmark@v1.15.0
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           name: Go Benchmark
