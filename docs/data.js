@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671931855577,
+  "lastUpdate": 1672018215432,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -6702,6 +6702,88 @@ window.BENCHMARK_DATA = {
             "value": 48.72,
             "unit": "ns/op",
             "extra": "22782940 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ringsaturn",
+            "username": "ringsaturn",
+            "email": "ringsaturn.me@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "9edda351bc1c9b89d28db164e7ea839bea954bb6",
+          "message": "point in polygon benchmark (#3)",
+          "timestamp": "2022-12-04T12:46:44Z",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/9edda351bc1c9b89d28db164e7ea839bea954bb6"
+        },
+        "date": 1672018214972,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMmcloughlinGeoHashEncode",
+            "value": 47.67,
+            "unit": "ns/op",
+            "extra": "24927394 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHashAndGetAllNeighbors",
+            "value": 94.12,
+            "unit": "ns/op",
+            "extra": "12567588 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTile",
+            "value": 130.4,
+            "unit": "ns/op",
+            "extra": "9202875 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTileAndGetAllNeighbors",
+            "value": 131,
+            "unit": "ns/op",
+            "extra": "9129812 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkPointInPoly",
+            "value": 51.83,
+            "unit": "ns/op",
+            "extra": "23249366 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkTidwalRTreeNearby",
+            "value": 11141,
+            "unit": "ns/op",
+            "extra": "110839 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHex",
+            "value": 1186,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHexAndGetNeighbors",
+            "value": 1820,
+            "unit": "ns/op",
+            "extra": "630844 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatFmt",
+            "value": 160.5,
+            "unit": "ns/op",
+            "extra": "7401536 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatNaive",
+            "value": 50.36,
+            "unit": "ns/op",
+            "extra": "23202529 times\n2 procs"
           }
         ]
       }
