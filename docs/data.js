@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672623017773,
+  "lastUpdate": 1672709434587,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -7442,6 +7442,88 @@ window.BENCHMARK_DATA = {
             "value": 52.43,
             "unit": "ns/op",
             "extra": "22238840 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "629301e65311744a3b860366e2cc5e54ee6fc12a",
+          "message": "Bump actions/checkout from 3.1.0 to 3.2.0 (#5)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.1.0 to 3.2.0.\r\n- [Release notes](https://github.com/actions/checkout/releases)\r\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/actions/checkout/compare/v3.1.0...v3.2.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/checkout\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-01-01T14:53:12Z",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/629301e65311744a3b860366e2cc5e54ee6fc12a"
+        },
+        "date": 1672709434307,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMmcloughlinGeoHashEncode",
+            "value": 51.4,
+            "unit": "ns/op",
+            "extra": "21998350 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHashAndGetAllNeighbors",
+            "value": 100.2,
+            "unit": "ns/op",
+            "extra": "11091651 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTile",
+            "value": 109.3,
+            "unit": "ns/op",
+            "extra": "10791140 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTileAndGetAllNeighbors",
+            "value": 118,
+            "unit": "ns/op",
+            "extra": "10180504 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkPointInPoly",
+            "value": 55.95,
+            "unit": "ns/op",
+            "extra": "20894239 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkTidwalRTreeNearby",
+            "value": 10783,
+            "unit": "ns/op",
+            "extra": "103077 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHex",
+            "value": 1144,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHexAndGetNeighbors",
+            "value": 1837,
+            "unit": "ns/op",
+            "extra": "697168 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatFmt",
+            "value": 203.4,
+            "unit": "ns/op",
+            "extra": "6221371 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatNaive",
+            "value": 55.59,
+            "unit": "ns/op",
+            "extra": "20214158 times\n2 procs"
           }
         ]
       }
