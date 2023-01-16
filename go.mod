@@ -7,7 +7,7 @@ require (
 	github.com/paulmach/orb v0.8.0
 	github.com/tidwall/cities v0.1.0
 	github.com/tidwall/geometry v0.1.0
-	github.com/tidwall/rtree v1.9.2
+	github.com/tidwall/rtree v1.9.4
 	github.com/uber/h3-go/v3 v3.7.1
 )
 
