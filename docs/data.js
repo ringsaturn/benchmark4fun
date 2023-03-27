@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679880817515,
+  "lastUpdate": 1679885351785,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -11712,6 +11712,90 @@ window.BENCHMARK_DATA = {
             "value": 51.46,
             "unit": "ns/op",
             "extra": "22709103 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbbfb49c4e5df8cc06396cad0f11c65d3860cb56",
+          "message": "Bump github.com/paulmach/orb from 0.8.0 to 0.9.0 (#10)\n\nBumps [github.com/paulmach/orb](https://github.com/paulmach/orb) from 0.8.0 to 0.9.0.\r\n- [Release notes](https://github.com/paulmach/orb/releases)\r\n- [Changelog](https://github.com/paulmach/orb/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/paulmach/orb/compare/v0.8.0...v0.9.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/paulmach/orb\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-03-27T10:48:22+08:00",
+          "tree_id": "390f55ec9e53bf19079aad5b9e9e3e643c1eb9bb",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/bbbfb49c4e5df8cc06396cad0f11c65d3860cb56"
+        },
+        "date": 1679885351465,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMmcloughlinGeoHashEncode",
+            "value": 44.93,
+            "unit": "ns/op",
+            "extra": "26197062 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkGenHashAndGetAllNeighbors",
+            "value": 95.58,
+            "unit": "ns/op",
+            "extra": "12550149 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTile",
+            "value": 106.7,
+            "unit": "ns/op",
+            "extra": "11231059 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTileAndGetAllNeighbors",
+            "value": 107.1,
+            "unit": "ns/op",
+            "extra": "11016826 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkPointInPoly",
+            "value": 53.83,
+            "unit": "ns/op",
+            "extra": "22203726 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkTidwalRTreeNearby",
+            "value": 10710,
+            "unit": "ns/op",
+            "extra": "113124 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHex",
+            "value": 1093,
+            "unit": "ns/op",
+            "extra": "1000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHexAndGetNeighbors",
+            "value": 1704,
+            "unit": "ns/op",
+            "extra": "680856 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatFmt",
+            "value": 184.2,
+            "unit": "ns/op",
+            "extra": "5985741 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatNaive",
+            "value": 51.21,
+            "unit": "ns/op",
+            "extra": "22531627 times\n2 procs"
           }
         ]
       }
