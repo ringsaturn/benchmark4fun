@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713749452294,
+  "lastUpdate": 1714354228012,
   "repoUrl": "https://github.com/ringsaturn/benchmark4fun",
   "entries": {
     "Go Benchmark": [
@@ -16892,6 +16892,88 @@ window.BENCHMARK_DATA = {
             "value": 39.36,
             "unit": "ns/op",
             "extra": "29494136 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "097d999f59a490ede419287f0037dbbd0ec0acdc",
+          "message": "Bump benchmark-action/github-action-benchmark from 1.16.2 to 1.17.0 (#15)\n\nBumps [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) from 1.16.2 to 1.17.0.\r\n- [Release notes](https://github.com/benchmark-action/github-action-benchmark/releases)\r\n- [Changelog](https://github.com/benchmark-action/github-action-benchmark/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/benchmark-action/github-action-benchmark/compare/v1.16.2...v1.17.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: benchmark-action/github-action-benchmark\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-05-01T15:47:51Z",
+          "url": "https://github.com/ringsaturn/benchmark4fun/commit/097d999f59a490ede419287f0037dbbd0ec0acdc"
+        },
+        "date": 1714354227288,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMmcloughlinGeoHashEncode",
+            "value": 35.34,
+            "unit": "ns/op",
+            "extra": "32905286 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkGenHashAndGetAllNeighbors",
+            "value": 75.56,
+            "unit": "ns/op",
+            "extra": "16037672 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTile",
+            "value": 93,
+            "unit": "ns/op",
+            "extra": "12893341 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkOrbMaptileGenTileAndGetAllNeighbors",
+            "value": 93.5,
+            "unit": "ns/op",
+            "extra": "12822252 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPointInPoly",
+            "value": 41.61,
+            "unit": "ns/op",
+            "extra": "28590219 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkTidwalRTreeNearby",
+            "value": 8656,
+            "unit": "ns/op",
+            "extra": "142975 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHex",
+            "value": 1043,
+            "unit": "ns/op",
+            "extra": "1000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkUberH3GenHexAndGetNeighbors",
+            "value": 1531,
+            "unit": "ns/op",
+            "extra": "738000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatFmt",
+            "value": 127.9,
+            "unit": "ns/op",
+            "extra": "9152906 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkUberH3FormatNaive",
+            "value": 39.63,
+            "unit": "ns/op",
+            "extra": "29879184 times\n4 procs"
           }
         ]
       }
